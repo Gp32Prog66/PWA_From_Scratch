@@ -1,0 +1,10 @@
+{
+    "name": "PWA From Scratch",
+    "start_url": "index.html",
+    "display": "standalone",
+    "background_color": "#ff2343",
+    "theme_color": "#ff9971",
+    "icons": [
+      
+    ]
+  }
