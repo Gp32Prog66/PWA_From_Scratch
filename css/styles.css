@@ -8,6 +8,8 @@ body {
   background: #fdfdfd;
   font-family:Georgia, 'Times New Roman', Times, serif;
   font-size: 1rem;
+  margin: auto;
+  text-align: center;
 }
 main {
   max-width: 900px;
@@ -19,6 +21,23 @@ main {
 p{
   margin-top: auto;
 }
+
+
 h2 {
   color: #10afee;
+}
+
+
+
+input[type=text]
+{
+    width: 5%;
+    border: 3px solid #666;
+    box-sizing: border-box;
+    padding: 12px 18px;
+}
+
+input[type=text]:focus {
+    background-color:darkseagreen;
+    border-color: orangered;
 }
