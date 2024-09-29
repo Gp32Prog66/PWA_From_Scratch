@@ -18,8 +18,28 @@
 
     <p>B tu szyz xc szqa fcr to B lck'x qztgz fcr dzsbk</p>
 
+    <!--JavaScript for checking the input-->
+
+    <script>
+    function checkBox()
+    {
+      var userInput = document.getElementById("solve");
+      if (userInput.value = "I")
+    {
+      userInput.style.color = "Red";
+    }
+    else
+    {
+      userInput.style.color = "Purple";
+    }
+    }
+
+    checkBox();
+
+    </script>
+
     <form>
-        <input type="text" maxlength="1"> <input type="text" maxlength="1"> <input type="text" maxlength="1"> <input type="text" maxlength="1"> <input type="text" maxlength="1"> <input type="text" maxlength="1">
+        <input type="text" id = "solve" onchange="checkBox();" maxlength="1"> <input type="text" id = "solve" onchange="checkBox();"  maxlength="1"> <input type="text" maxlength="1"> <input type="text" maxlength="1"> <input type="text" maxlength="1"> <input type="text" maxlength="1">
         <input type="text" maxlength="1"> <input type="text" maxlength="1"> <input type="text" maxlength="1"> <input type="text" maxlength="1"> <input type="text" maxlength="1"> <input type="text" maxlength="1">
         <input type="text" maxlength="1"> <input type="text" maxlength="1"> <input type="text" maxlength="1"> <input type="text" maxlength="1"> <input type="text" maxlength="1"> <input type="text" maxlength="1"> 
         <input type="text" maxlength="1"> <input type="text" maxlength="1"> <input type="text" maxlength="1"> <input type="text" maxlength="1"> <input type="text" maxlength="1"> <input type="text" maxlength="1"> 
@@ -28,6 +48,8 @@
 
         
     </form>
+
+    
 
       <div class="container"></div>
     </main>
