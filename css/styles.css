@@ -6,6 +6,8 @@
 }
 body {
   background: #fdfdfd;
+  background-image: url('/Pics/LearningCathedral.jpg');
+  filter: blur(0.1px);
   font-family:Georgia, 'Times New Roman', Times, serif;
   font-size: 1rem;
   margin: auto;
@@ -20,11 +22,17 @@ main {
 
 p{
   margin-top: auto;
+  text-decoration: overline;
 }
 
 
 h2 {
-  color: #10afee;
+  outline-style: dotted;
+  outline-color: black;
+  color: black;
+  background-color: goldenrod;
+  padding: 10px;
+  margin: 20px;
 }
 
 
