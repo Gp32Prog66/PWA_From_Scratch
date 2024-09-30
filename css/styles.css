@@ -7,7 +7,6 @@
 body {
   background: #fdfdfd;
   background-image: url('/Pics/LearningCathedral.jpg');
-  filter: blur(0.1px);
   font-family:Georgia, 'Times New Roman', Times, serif;
   font-size: 1rem;
   margin: auto;
@@ -45,6 +44,11 @@ h2 {
 {
 padding-right: 10px;
 margin: 20px;
+}
+
+.blur
+{
+  filter: blur(0.1px);
 }
 
 input[type=text]
