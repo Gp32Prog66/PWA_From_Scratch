@@ -7,47 +7,319 @@
     <title>A PWA From Scratch</title>
   </head>
   <body>
-   
-
     <main>
-    <h2>A common string of emojis I use in a response things go wrong</h2>
-    <p>Don't worry. It's an inside joke.</p>
+      <h2>A common string of emojis I use in a response things go wrong</h2>
+      <p>Don't worry. It's an inside joke.</p>
 
-    &#128557;   &#129314;   &#129326;
+      <!--Emoji's-->
+      &#128557; &#129314; &#129326;
 
-    <!--Bonus Content-->
-    <h1>Can you solve the cryptogram?</h1>
+      <!--Bonus Content-->
+      <h1>Can you solve the cryptogram?</h1>
 
-    <p>B tu szyz xc szqa fcr</p>
+      <div class = "puzzle">
+      <p>B tu szyz xc szqa fcr</p>
+      </div>
 
-    <!--JavaScript for checking the input-->
+      <!--JavaScript for checking the input-->
 
-    <script>
-    function checkBox()
-    {
-      var userInput = document.getElementById("solve");
-      if (userInput.value = "I")
-    {
-      userInput.style.color = "Red";
-    }
-    else
-    {
-      userInput.style.color = "Purple";
-    }
-    }
+      <script>
+        function checkBoxOne() {
+          var userInput = document.getElementById("solve");
+           if (userInput.value === "I") {
+            userInput.style.color = "Green";
+          } 
+        }
 
-    checkBox();
 
-    </script>
 
-    <form>
-        <input type="text" id = "solve" onchange="checkBox();" maxlength="1"> <input type="text" id = "solve" onchange="checkBox();"  maxlength="1"> <input type="text" id = "solve" onchange="checkBox();" maxlength="1"> <input type="text" id = "solve" onchange="checkBox();"  maxlength="1"> 
-        <input type="text" id = "solve" onchange="checkBox();" maxlength="1"> <input type="text" id = "solve" onchange="checkBox();"  maxlength="1"> <input type="text" id = "solve" onchange="checkBox();" maxlength="1"> <input type="text" id = "solve" onchange="checkBox();"  maxlength="1"> 
-        <input type="text" id = "solve" onchange="checkBox();" maxlength="1"> <input type="text" id = "solve" onchange="checkBox();"  maxlength="1"> <input type="text" id = "solve" onchange="checkBox();" maxlength="1"> <input type="text" id = "solve" onchange="checkBox();"  maxlength="1"> 
-        <input type="text" id = "solve" onchange="checkBox();" maxlength="1"> <input type="text" id = "solve" onchange="checkBox();"  maxlength="1"> <input type="text" id = "solve" onchange="checkBox();" maxlength="1"> <input type="text" id = "solve" onchange="checkBox();"  maxlength="1"> 
-    </form>
+        function checkBoxTwo() {
+          var userInputTwo = document.getElementById("solve");
+          if (userInputTwo.value === "a") {
+            userInputTwo.style.color = "Green";
+          } 
+        }
 
-    
+        function checkBoxThree() {
+          var userInput = document.getElementById("solve");
+          if (userInput.value !== "m") {
+            userInput.style.color === "Red";
+          } else if (userInput.value === "m") {
+            userInput.style.color = "Green";
+          } else {
+            userInput.style.background = "Grey";
+          }
+        }
+
+        function checkBoxFour() {
+          var userInput = document.getElementById("solve");
+          if (userInput.value !== "h") {
+            userInput.style.color === "Red";
+          } else if (userInput.value === "h") {
+            userInput.style.color = "Green";
+          } else {
+            userInput.style.background = "Grey";
+          }
+        }
+
+        function checkBoxFive() {
+          var userInput = document.getElementById("solve");
+          if (userInput.value !== "e") {
+            userInput.style.color === "Red";
+          } else if (userInput.value === "e") {
+            userInput.style.color = "Green";
+          } else {
+            userInput.style.background = "Grey";
+          }
+        }
+
+        function checkBoxSix() {
+          var userInput = document.getElementById("solve");
+          if (userInput.value !== "r") {
+            userInput.style.color === "Red";
+          } else if (userInput.value === "r") {
+            userInput.style.color = "Green";
+          } else {
+            userInput.style.background = "Grey";
+          }
+        }
+
+        function checkBoxSeven() {
+          var userInput = document.getElementById("solve");
+          if (userInput.value !== "e") {
+            userInput.style.color === "Red";
+          } else if (userInput.value === "e") {
+            userInput.style.color = "Green";
+          } else {
+            userInput.style.background = "Grey";
+          }
+        }
+
+        function checkBoxEight() {
+          var userInput = document.getElementById("solve");
+          if (userInput.value !== "t") {
+            userInput.style.color === "Red";
+          } else if (userInput.value === "t") {
+            userInput.style.color = "Green";
+          } else {
+            userInput.style.background = "Grey";
+          }
+        }
+
+        function checkBoxNine() {
+          var userInput = document.getElementById("solve");
+          if (userInput.value !== "o") {
+            userInput.style.color === "Red";
+          } else if (userInput.value === "o") {
+            userInput.style.color = "Green";
+          } else {
+            userInput.style.background = "Grey";
+          }
+        }
+
+        function checkBoxTen() {
+          var userInput = document.getElementById("solve");
+          if (userInput.value !== "h") {
+            userInput.style.color === "Red";
+          } else if (userInput.value === "h") {
+            userInput.style.color = "Green";
+          } else {
+            userInput.style.background = "Grey";
+          }
+        }
+
+        function checkBoxEleven() {
+          var userInput = document.getElementById("solve");
+          if (userInput.value !== "e") {
+            userInput.style.color === "Red";
+          } else if (userInput.value === "e") {
+            userInput.style.color = "Green";
+          } else {
+            userInput.style.background = "Grey";
+          }
+        }
+
+        function checkBoxTwelve() {
+          var userInput = document.getElementById("solve");
+          if (userInput.value !== "l") {
+            userInput.style.color === "Red";
+          } else if (userInput.value === "l") {
+            userInput.style.color = "Green";
+          } else {
+            userInput.style.background = "Grey";
+          }
+        }
+
+        function checkBoxThirteen() {
+          var userInput = document.getElementById("solve");
+          if (userInput.value !== "p") {
+            userInput.style.color === "Red";
+          } else if (userInput.value === "p") {
+            userInput.style.color = "Green";
+          } else {
+            userInput.style.background = "Grey";
+          }
+        }
+
+        function checkBoxFourteen() {
+          var userInput = document.getElementById("solve");
+          if (userInput.value !== "y") {
+            userInput.style.color === "Red";
+          } else if (userInput.value === "y") {
+            userInput.style.color = "Green";
+          } else {
+            userInput.style.background = "Grey";
+          }
+        }
+
+        function checkBoxFifteen() {
+          var userInput = document.getElementById("solve");
+          if (userInput.value !== "o") {
+            userInput.style.color === "Red";
+          } else if (userInput.value === "o") {
+            userInput.style.color = "Green";
+          } else {
+            userInput.style.background = "Grey";
+          }
+        }
+
+        function checkBoxSixteen() {
+          var userInput = document.getElementById("solve");
+          if (userInput.value !== "u") {
+            userInput.style.color === "Red";
+          } else if (userInput.value === "u") {
+            userInput.style.color = "Green";
+          } else {
+            userInput.style.background = "Grey";
+          }
+        }
+
+        checkBoxOne();
+        checkBoxTwo();
+        checkBoxThree();
+        checkBoxFour();
+        checkBoxFive();
+
+        checkBoxSix();
+        checkBoxSeven();
+        checkBoxEight();
+        checkBoxNine();
+        checkBoxTen();
+
+        checkBoxEleven();
+        checkBoxTwelve();
+        checkBoxThirteen();
+        checkBoxFourteen();
+        checkBoxFifteen();
+        checkBoxSixteen();
+      </script>
+
+      <form>
+        <input type="text" id="solve" onchange="checkBoxOne();" maxlength="1" />
+
+        <div class = "space">
+
+        </div>
+
+        <input type="text" id="solve" onchange="checkBoxTwo();" maxlength="1" />
+        <input
+          type="text"
+          id="solve"
+          onchange="checkBoxThree();"
+          maxlength="1"
+        />
+
+        <div class = "space">
+
+        </div>
+
+        <input
+          type="text"
+          id="solve"
+          onchange="checkBoxFour();"
+          maxlength="1"
+        />
+        <input
+          type="text"
+          id="solve"
+          onchange="checkBoxFive();"
+          maxlength="1"
+        />
+        <input type="text" id="solve" onchange="checkBoxSix();" maxlength="1" />
+        <input
+          type="text"
+          id="solve"
+          onchange="checkBoxSeven();"
+          maxlength="1"
+        />
+
+        <div class = "space">
+
+        </div>
+
+        <input
+          type="text"
+          id="solve"
+          onchange="checkBoxEight();"
+          maxlength="1"
+        />
+
+        <input
+          type="text"
+          id="solve"
+          onchange="checkBoxNine();"
+          maxlength="1"
+        />
+
+        <div class = "space">
+
+        </div>
+
+        <input type="text" id="solve" onchange="checkBoxTen();" maxlength="1" />
+        <input
+          type="text"
+          id="solve"
+          onchange="checkBoxEleven();"
+          maxlength="1"
+        />
+
+        
+        <input
+          type="text"
+          id="solve"
+          onchange="checkBoxTwelve();"
+          maxlength="1"
+        />
+        <input
+          type="text"
+          id="solve"
+          onchange="checkBoxThirteen();"
+          maxlength="1"
+        />
+
+        <div class = "space"></div>
+
+        </div>
+
+        <input
+          type="text"
+          id="solve"
+          onchange="checkBoxFourteen();"
+          maxlength="1"
+        />
+        <input
+          type="text"
+          id="solve"
+          onchange="checkBoxFifteen();"
+          maxlength="1"
+        />
+        <input
+          type="text"
+          id="solve"
+          onchange="checkBoxSixteen();"
+          maxlength="1"
+        />
+      </form>
 
       <div class="container"></div>
     </main>
